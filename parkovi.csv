@@ -1,0 +1,18 @@
+id,naziv,vrsta,velicina,osnovan,rijeka,regija,stranica,najvisi_vrh,nazivJezera,np,velicinaJezera,dubina
+1,Brijuni,NP,33.9,1983,,primorska,https://www.parkovihrvatske.hr/nacionalni-park-brijuni,55,,,,
+2,Kornati,NP,220,1980,,primorska,https://www.parkovihrvatske.hr/nacionalni-park-kornati,9,,,,
+3,Krka,NP,109,1985,Krka,primorska,https://www.parkovihrvatske.hr/nacionalni-park-krka,220,Visovačko jezero,Krka,7.9,55
+4,Medvednica,PP,179.38,1981,,središnja,https://www.parkovihrvatske.hr/park-prirode-medvednica,1033,,,,
+5,Mljet,NP,53.57,1960,,primorska,https://www.parkovihrvatske.hr/nacionalni-park-mljet,514,Veliko jezero,Mljet,1.45,46
+5,Mljet,NP,53.57,1960,,primorska,https://www.parkovihrvatske.hr/nacionalni-park-mljet,514,Malo jezero,Mljet,0.25,29
+6,Paklenica,NP,36.17,1949,Paklenica,gorska,https://www.parkovihrvatske.hr/nacionalni-park-paklenica,1757,Babino jezero,Paklenica,0.0005,3
+7,Papuk,PP,336,1999,Jankovac,istočna,https://www.parkovihrvatske.hr/park-prirode-papuk,953,,,,
+8,Plitvička jezera,NP,296.85,1949,Korana,gorska,https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera,1279,Kozjak,Plitvička jezera,0.81,46
+8,Plitvička jezera,NP,296.85,1949,Korana,gorska,https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera,1279,Milanovac,Plitvička jezera,0.03,18
+8,Plitvička jezera,NP,296.85,1949,Korana,gorska,https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera,1279,Okrugljak,Plitvička jezera,0.04,15
+8,Plitvička jezera,NP,296.85,1949,Korana,gorska,https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera,1279,Ciginovac,Plitvička jezera,0.07,11
+8,Plitvička jezera,NP,296.85,1949,Korana,gorska,https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera,1279,Galovac,Plitvička jezera,0.12,24
+8,Plitvička jezera,NP,296.85,1949,Korana,gorska,https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera,1279,Gradinsko jezero,Plitvička jezera,0.08,10
+8,Plitvička jezera,NP,296.85,1949,Korana,gorska,https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera,1279,Prošćansko jezero,Plitvička jezera,0.68,37
+9,Risnjak,NP,64,1953,Kupa,gorska,https://www.parkovihrvatske.hr/nacionalni-park-risnjak,1528,,,,
+10,Sjeverni Velebit,NP,109,1999,,gorska,https://www.parkovihrvatske.hr/nacionalni-park-sjeverni-velebit,1757,,,,
