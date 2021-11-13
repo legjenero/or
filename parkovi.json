@@ -1,259 +1,192 @@
-{
-    "parkovi": [
-        {
-            "id": 1,
-            "naziv": "Brijuni",
-            "vrsta": "NP",
-            "velicina": 33.9,
-            "osnovan": 1983,
-            "rijeka": null,
-            "regija": "primorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-brijuni",
-            "najvisi_vrh": 55,
-            "nazivJezera": null,
-            "np": null,
-            "velicinaJezera": null,
-            "dubina": null
-        },
-        {
-            "id": 2,
-            "naziv": "Kornati",
-            "vrsta": "NP",
-            "velicina": 220,
-            "osnovan": 1980,
-            "rijeka": null,
-            "regija": "primorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-kornati",
-            "najvisi_vrh": 9,
-            "nazivJezera": null,
-            "np": null,
-            "velicinaJezera": null,
-            "dubina": null
-        },
-        {
-            "id": 3,
-            "naziv": "Krka",
-            "vrsta": "NP",
-            "velicina": 109,
-            "osnovan": 1985,
-            "rijeka": "Krka",
-            "regija": "primorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-krka",
-            "najvisi_vrh": 220,
-            "nazivJezera": "Visovačko jezero",
-            "np": "Krka",
-            "velicinaJezera": 7.9,
-            "dubina": 55
-        },
-        {
-            "id": 4,
-            "naziv": "Medvednica",
-            "vrsta": "PP",
-            "velicina": 179.38,
-            "osnovan": 1981,
-            "rijeka": null,
-            "regija": "središnja",
-            "stranica": "https://www.parkovihrvatske.hr/park-prirode-medvednica",
-            "najvisi_vrh": 1033,
-            "nazivJezera": null,
-            "np": null,
-            "velicinaJezera": null,
-            "dubina": null
-        },
-        {
-            "id": 5,
-            "naziv": "Mljet",
-            "vrsta": "NP",
-            "velicina": 53.57,
-            "osnovan": 1960,
-            "rijeka": null,
-            "regija": "primorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-mljet",
-            "najvisi_vrh": 514,
-            "nazivJezera": "Veliko jezero",
-            "np": "Mljet",
-            "velicinaJezera": 1.45,
-            "dubina": 46
-        },
-        {
-            "id": 5,
-            "naziv": "Mljet",
-            "vrsta": "NP",
-            "velicina": 53.57,
-            "osnovan": 1960,
-            "rijeka": null,
-            "regija": "primorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-mljet",
-            "najvisi_vrh": 514,
-            "nazivJezera": "Malo jezero",
-            "np": "Mljet",
-            "velicinaJezera": 0.25,
-            "dubina": 29
-        },
-        {
-            "id": 6,
-            "naziv": "Paklenica",
-            "vrsta": "NP",
-            "velicina": 36.17,
-            "osnovan": 1949,
-            "rijeka": "Paklenica",
-            "regija": "gorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-paklenica",
-            "najvisi_vrh": 1757,
-            "nazivJezera": "Babino jezero",
-            "np": "Paklenica",
-            "velicinaJezera": 0.0005,
-            "dubina": 3
-        },
-        {
-            "id": 7,
-            "naziv": "Papuk",
-            "vrsta": "PP",
-            "velicina": 336,
-            "osnovan": 1999,
-            "rijeka": "Jankovac",
-            "regija": "istočna",
-            "stranica": "https://www.parkovihrvatske.hr/park-prirode-papuk",
-            "najvisi_vrh": 953,
-            "nazivJezera": null,
-            "np": null,
-            "velicinaJezera": null,
-            "dubina": null
-        },
-        {
-            "id": 8,
-            "naziv": "Plitvička jezera",
-            "vrsta": "NP",
-            "velicina": 296.85,
-            "osnovan": 1949,
-            "rijeka": "Korana",
-            "regija": "gorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera",
-            "najvisi_vrh": 1279,
-            "nazivJezera": "Kozjak",
-            "np": "Plitvička jezera",
-            "velicinaJezera": 0.81,
-            "dubina": 46
-        },
-        {
-            "id": 8,
-            "naziv": "Plitvička jezera",
-            "vrsta": "NP",
-            "velicina": 296.85,
-            "osnovan": 1949,
-            "rijeka": "Korana",
-            "regija": "gorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera",
-            "najvisi_vrh": 1279,
-            "nazivJezera": "Milanovac",
-            "np": "Plitvička jezera",
-            "velicinaJezera": 0.03,
-            "dubina": 18
-        },
-        {
-            "id": 8,
-            "naziv": "Plitvička jezera",
-            "vrsta": "NP",
-            "velicina": 296.85,
-            "osnovan": 1949,
-            "rijeka": "Korana",
-            "regija": "gorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera",
-            "najvisi_vrh": 1279,
-            "nazivJezera": "Okrugljak",
-            "np": "Plitvička jezera",
-            "velicinaJezera": 0.04,
-            "dubina": 15
-        },
-        {
-            "id": 8,
-            "naziv": "Plitvička jezera",
-            "vrsta": "NP",
-            "velicina": 296.85,
-            "osnovan": 1949,
-            "rijeka": "Korana",
-            "regija": "gorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera",
-            "najvisi_vrh": 1279,
-            "nazivJezera": "Ciginovac",
-            "np": "Plitvička jezera",
-            "velicinaJezera": 0.07,
-            "dubina": 11
-        },
-        {
-            "id": 8,
-            "naziv": "Plitvička jezera",
-            "vrsta": "NP",
-            "velicina": 296.85,
-            "osnovan": 1949,
-            "rijeka": "Korana",
-            "regija": "gorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera",
-            "najvisi_vrh": 1279,
-            "nazivJezera": "Galovac",
-            "np": "Plitvička jezera",
-            "velicinaJezera": 0.12,
-            "dubina": 24
-        },
-        {
-            "id": 8,
-            "naziv": "Plitvička jezera",
-            "vrsta": "NP",
-            "velicina": 296.85,
-            "osnovan": 1949,
-            "rijeka": "Korana",
-            "regija": "gorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera",
-            "najvisi_vrh": 1279,
-            "nazivJezera": "Gradinsko jezero",
-            "np": "Plitvička jezera",
-            "velicinaJezera": 0.08,
-            "dubina": 10
-        },
-        {
-            "id": 8,
-            "naziv": "Plitvička jezera",
-            "vrsta": "NP",
-            "velicina": 296.85,
-            "osnovan": 1949,
-            "rijeka": "Korana",
-            "regija": "gorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera",
-            "najvisi_vrh": 1279,
-            "nazivJezera": "Prošćansko jezero",
-            "np": "Plitvička jezera",
-            "velicinaJezera": 0.68,
-            "dubina": 37
-        },
-        {
-            "id": 9,
-            "naziv": "Risnjak",
-            "vrsta": "NP",
-            "velicina": 64,
-            "osnovan": 1953,
-            "rijeka": "Kupa",
-            "regija": "gorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-risnjak",
-            "najvisi_vrh": 1528,
-            "nazivJezera": null,
-            "np": null,
-            "velicinaJezera": null,
-            "dubina": null
-        },
-        {
-            "id": 10,
-            "naziv": "Sjeverni Velebit",
-            "vrsta": "NP",
-            "velicina": 109,
-            "osnovan": 1999,
-            "rijeka": null,
-            "regija": "gorska",
-            "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-sjeverni-velebit",
-            "najvisi_vrh": 1757,
-            "nazivJezera": null,
-            "np": null,
-            "velicinaJezera": null,
-            "dubina": null
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "naziv": "Brijuni",
+        "vrsta": "NP",
+        "velicina": 33.9,
+        "osnovan": 1983,
+        "rijeka": null,
+        "regija": "primorska",
+        "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-brijuni",
+        "najvisi_vrh": 55,
+        "jezero": null
+    },
+    {
+        "id": 2,
+        "naziv": "Kornati",
+        "vrsta": "NP",
+        "velicina": 220,
+        "osnovan": 1980,
+        "rijeka": null,
+        "regija": "primorska",
+        "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-kornati",
+        "najvisi_vrh": 9,
+        "jezero": null
+    },
+    {
+        "id": 3,
+        "naziv": "Krka",
+        "vrsta": "NP",
+        "velicina": 109,
+        "osnovan": 1985,
+        "rijeka": "Krka",
+        "regija": "primorska",
+        "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-krka",
+        "najvisi_vrh": 220,
+        "jezero": [
+            {
+                "nazivJezera": "Visovačko jezero",
+                "velicinaJezera": 7.9,
+                "dubina": 55,
+                "id": 3
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "naziv": "Medvednica",
+        "vrsta": "PP",
+        "velicina": 179.38,
+        "osnovan": 1981,
+        "rijeka": null,
+        "regija": "središnja",
+        "stranica": "https://www.parkovihrvatske.hr/park-prirode-medvednica",
+        "najvisi_vrh": 1033,
+        "jezero": null
+    },
+    {
+        "id": 5,
+        "naziv": "Mljet",
+        "vrsta": "NP",
+        "velicina": 53.57,
+        "osnovan": 1960,
+        "rijeka": null,
+        "regija": "primorska",
+        "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-mljet",
+        "najvisi_vrh": 514,
+        "jezero": [
+            {
+                "nazivJezera": "Malo jezero",
+                "velicinaJezera": 0.25,
+                "dubina": 29,
+                "id": 5
+            },
+            {
+                "nazivJezera": "Veliko jezero",
+                "velicinaJezera": 1.45,
+                "dubina": 46,
+                "id": 5
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "naziv": "Paklenica",
+        "vrsta": "NP",
+        "velicina": 36.17,
+        "osnovan": 1949,
+        "rijeka": "Paklenica",
+        "regija": "gorska",
+        "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-paklenica",
+        "najvisi_vrh": 1757,
+        "jezero": [
+            {
+                "nazivJezera": "Babino jezero",
+                "velicinaJezera": 0.0005,
+                "dubina": 3,
+                "id": 6
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "naziv": "Papuk",
+        "vrsta": "PP",
+        "velicina": 336,
+        "osnovan": 1999,
+        "rijeka": "Jankovac",
+        "regija": "istočna",
+        "stranica": "https://www.parkovihrvatske.hr/park-prirode-papuk",
+        "najvisi_vrh": 953,
+        "jezero": null
+    },
+    {
+        "id": 8,
+        "naziv": "Plitvička jezera",
+        "vrsta": "NP",
+        "velicina": 296.85,
+        "osnovan": 1949,
+        "rijeka": "Korana",
+        "regija": "gorska",
+        "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-plitvicka-jezera",
+        "najvisi_vrh": 1279,
+        "jezero": [
+            {
+                "nazivJezera": "Ciginovac",
+                "velicinaJezera": 0.07,
+                "dubina": 11,
+                "id": 8
+            },
+            {
+                "nazivJezera": "Galovac",
+                "velicinaJezera": 0.12,
+                "dubina": 24,
+                "id": 8
+            },
+            {
+                "nazivJezera": "Gradinsko jezero",
+                "velicinaJezera": 0.08,
+                "dubina": 10,
+                "id": 8
+            },
+            {
+                "nazivJezera": "Kozjak",
+                "velicinaJezera": 0.81,
+                "dubina": 46,
+                "id": 8
+            },
+            {
+                "nazivJezera": "Milanovac",
+                "velicinaJezera": 0.03,
+                "dubina": 18,
+                "id": 8
+            },
+            {
+                "nazivJezera": "Okrugljak",
+                "velicinaJezera": 0.04,
+                "dubina": 15,
+                "id": 8
+            },
+            {
+                "nazivJezera": "Prošćansko jezero",
+                "velicinaJezera": 0.68,
+                "dubina": 37,
+                "id": 8
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "naziv": "Risnjak",
+        "vrsta": "NP",
+        "velicina": 64,
+        "osnovan": 1953,
+        "rijeka": "Kupa",
+        "regija": "gorska",
+        "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-risnjak",
+        "najvisi_vrh": 1528,
+        "jezero": null
+    },
+    {
+        "id": 10,
+        "naziv": "Sjeverni Velebit",
+        "vrsta": "NP",
+        "velicina": 109,
+        "osnovan": 1999,
+        "rijeka": null,
+        "regija": "gorska",
+        "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-sjeverni-velebit",
+        "najvisi_vrh": 1757,
+        "jezero": null
+    }
+]
