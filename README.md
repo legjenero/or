@@ -1,3 +1,5 @@
+Otvoreno racunarstvo, prikaz otvorenosti podataka
+
 Creative Commons CCO 1.0 - dozvoljeno kopiranje, modificiranje i korištenje rada, čak i za komercijalne svrhe bez traženja dozvole autora.  
 
 autor - Leonarda Gjenero  
@@ -24,5 +26,17 @@ opis atributa u skupu podataka -
   velicinaJezera - velicina jezera u km^2 ; double  
   dubina - max dubina ; integer  
   
+objava 2.11.2021.
 
-  
+zadnji put osvjezeno 16.11.2021.
+
+programski jezici- html, js
+
+tip podataka- json,cvs
+
+poveznica na podatke u raw formatu-
+  csv:
+  https://raw.githubusercontent.com/legjenero/or/main/parkovi.csv
+
+  json:
+  https://raw.githubusercontent.com/legjenero/or/main/parkovi.json
