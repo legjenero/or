@@ -1,185 +1,178 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2580
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 \{\
-    "$schema": "http://json-schema.org/draft-07/schema",\
-    "$id": "http://example.com/example.json",\
-    "type": "array",\
-    "title": "The root schema",\
-    "description": "The root schema comprises the entire JSON document.",\
-    "default": [],\
-    "examples": [\
-        [\
-            \{\
-                "id": 1,\
-                "naziv": "Brijuni",\
-                "vrsta": "NP",\
-                "velicina": 33.9,\
-                "osnovan": 1983,\
-                "rijeka": null,\
-                "regija": "primorska",\
-                "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-brijuni",\
-                "najvisi_vrh": 55,\
-                "jezero": null\
-            \},\
-            \{\
-                "id": 2,\
-                "naziv": "Kornati",\
-                "vrsta": "NP",\
-                "velicina": 220,\
-                "osnovan": 1980,\
-                "rijeka": null,\
-                "regija": "primorska",\
-                "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-kornati",\
-                "najvisi_vrh": 9,\
-                "jezero": null\
-            \}\
-        ]\
-    ],\
-    "additionalItems": true,\
-    "items": \{\
-        "$id": "#/items",\
-        "anyOf": [\
-            \{\
-                "$id": "#/items/anyOf/0",\
-                "type": "object",\
-                "title": "The first anyOf schema",\
-                "description": "An explanation about the purpose of this instance.",\
-                "default": \{\},\
-                "examples": [\
-                    \{\
-                        "id": 1,\
-                        "naziv": "Brijuni",\
-                        "vrsta": "NP",\
-                        "velicina": 33.9,\
-                        "osnovan": 1983,\
-                        "rijeka": null,\
-                        "regija": "primorska",\
-                        "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-brijuni",\
-                        "najvisi_vrh": 55,\
-                        "jezero": null\
-                    \}\
-                ],\
-                "required": [\
-                    "id",\
-                    "naziv",\
-                    "vrsta",\
-                    "velicina",\
-                    "osnovan",\
-                    "rijeka",\
-                    "regija",\
-                    "stranica",\
-                    "najvisi_vrh",\
-                    "jezero"\
-                ],\
-                "properties": \{\
-                    "id": \{\
-                        "$id": "#/items/anyOf/0/properties/id",\
-                        "type": "integer",\
-                        "title": "The id schema",\
-                        "description": "An explanation about the purpose of this instance.",\
-                        "default": 0,\
-                        "examples": [\
-                            1\
-                        ]\
-                    \},\
-                    "naziv": \{\
-                        "$id": "#/items/anyOf/0/properties/naziv",\
-                        "type": "string",\
-                        "title": "The naziv schema",\
-                        "description": "An explanation about the purpose of this instance.",\
-                        "default": "",\
-                        "examples": [\
-                            "Brijuni"\
-                        ]\
-                    \},\
-                    "vrsta": \{\
-                        "$id": "#/items/anyOf/0/properties/vrsta",\
-                        "type": "string",\
-                        "title": "The vrsta schema",\
-                        "description": "An explanation about the purpose of this instance.",\
-                        "default": "",\
-                        "examples": [\
-                            "NP"\
-                        ]\
-                    \},\
-                    "velicina": \{\
-                        "$id": "#/items/anyOf/0/properties/velicina",\
-                        "type": "number",\
-                        "title": "The velicina schema",\
-                        "description": "An explanation about the purpose of this instance.",\
-                        "default": 0.0,\
-                        "examples": [\
-                            33.9\
-                        ]\
-                    \},\
-                    "osnovan": \{\
-                        "$id": "#/items/anyOf/0/properties/osnovan",\
-                        "type": "integer",\
-                        "title": "The osnovan schema",\
-                        "description": "An explanation about the purpose of this instance.",\
-                        "default": 0,\
-                        "examples": [\
-                            1983\
-                        ]\
-                    \},\
-                    "rijeka": \{\
-                        "$id": "#/items/anyOf/0/properties/rijeka",\
-                        "type": "null",\
-                        "title": "The rijeka schema",\
-                        "description": "An explanation about the purpose of this instance.",\
-                        "default": null,\
-                        "examples": [\
-                            null\
-                        ]\
-                    \},\
-                    "regija": \{\
-                        "$id": "#/items/anyOf/0/properties/regija",\
-                        "type": "string",\
-                        "title": "The regija schema",\
-                        "description": "An explanation about the purpose of this instance.",\
-                        "default": "",\
-                        "examples": [\
-                            "primorska"\
-                        ]\
-                    \},\
-                    "stranica": \{\
-                        "$id": "#/items/anyOf/0/properties/stranica",\
-                        "type": "string",\
-                        "title": "The stranica schema",\
-                        "description": "An explanation about the purpose of this instance.",\
-                        "default": "",\
-                        "examples": [\
-                            "https://www.parkovihrvatske.hr/nacionalni-park-brijuni"\
-                        ]\
-                    \},\
-                    "najvisi_vrh": \{\
-                        "$id": "#/items/anyOf/0/properties/najvisi_vrh",\
-                        "type": "integer",\
-                        "title": "The najvisi_vrh schema",\
-                        "description": "An explanation about the purpose of this instance.",\
-                        "default": 0,\
-                        "examples": [\
-                            55\
-                        ]\
-                    \},\
-                    "jezero": \{\
-                        "$id": "#/items/anyOf/0/properties/jezero",\
-                        "type": "null",\
-                        "title": "The jezero schema",\
-                        "description": "An explanation about the purpose of this instance.",\
-                        "default": null,\
-                        "examples": [\
-                            null\
-                        ]\
-                    \}\
-                \},\
-                "additionalProperties": true\
-            \}\
-        ]\
-    \}\
-\}}
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "examples": [
+        [
+            {
+                "id": 1,
+                "naziv": "Brijuni",
+                "vrsta": "NP",
+                "velicina": 33.9,
+                "osnovan": 1983,
+                "rijeka": null,
+                "regija": "primorska",
+                "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-brijuni",
+                "najvisi_vrh": 55,
+                "jezero": null
+            },
+            {
+                "id": 2,
+                "naziv": "Kornati",
+                "vrsta": "NP",
+                "velicina": 220,
+                "osnovan": 1980,
+                "rijeka": null,
+                "regija": "primorska",
+                "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-kornati",
+                "najvisi_vrh": 9,
+                "jezero": null
+            }
+        ]
+    ],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "anyOf": [
+            {
+                "$id": "#/items/anyOf/0",
+                "type": "object",
+                "title": "The first anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                    {
+                        "id": 1,
+                        "naziv": "Brijuni",
+                        "vrsta": "NP",
+                        "velicina": 33.9,
+                        "osnovan": 1983,
+                        "rijeka": null,
+                        "regija": "primorska",
+                        "stranica": "https://www.parkovihrvatske.hr/nacionalni-park-brijuni",
+                        "najvisi_vrh": 55,
+                        "jezero": null
+                    }
+                ],
+                "required": [
+                    "id",
+                    "naziv",
+                    "vrsta",
+                    "velicina",
+                    "osnovan",
+                    "rijeka",
+                    "regija",
+                    "stranica",
+                    "najvisi_vrh",
+                    "jezero"
+                ],
+                "properties": {
+                    "id": {
+                        "$id": "#/items/anyOf/0/properties/id",
+                        "type": "integer",
+                        "title": "The id schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                            1
+                        ]
+                    },
+                    "naziv": {
+                        "$id": "#/items/anyOf/0/properties/naziv",
+                        "type": "string",
+                        "title": "The naziv schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Brijuni"
+                        ]
+                    },
+                    "vrsta": {
+                        "$id": "#/items/anyOf/0/properties/vrsta",
+                        "type": "string",
+                        "title": "The vrsta schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "NP"
+                        ]
+                    },
+                    "velicina": {
+                        "$id": "#/items/anyOf/0/properties/velicina",
+                        "type": "number",
+                        "title": "The velicina schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0.0,
+                        "examples": [
+                            33.9
+                        ]
+                    },
+                    "osnovan": {
+                        "$id": "#/items/anyOf/0/properties/osnovan",
+                        "type": "integer",
+                        "title": "The osnovan schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                            1983
+                        ]
+                    },
+                    "rijeka": {
+                        "$id": "#/items/anyOf/0/properties/rijeka",
+                        "type": "null",
+                        "title": "The rijeka schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": null,
+                        "examples": [
+                            null
+                        ]
+                    },
+                    "regija": {
+                        "$id": "#/items/anyOf/0/properties/regija",
+                        "type": "string",
+                        "title": "The regija schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "primorska"
+                        ]
+                    },
+                    "stranica": {
+                        "$id": "#/items/anyOf/0/properties/stranica",
+                        "type": "string",
+                        "title": "The stranica schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "https://www.parkovihrvatske.hr/nacionalni-park-brijuni"
+                        ]
+                    },
+                    "najvisi_vrh": {
+                        "$id": "#/items/anyOf/0/properties/najvisi_vrh",
+                        "type": "integer",
+                        "title": "The najvisi_vrh schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                            55
+                        ]
+                    },
+                    "jezero": {
+                        "$id": "#/items/anyOf/0/properties/jezero",
+                        "type": "null",
+                        "title": "The jezero schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": null,
+                        "examples": [
+                            null
+                        ]
+                    }
+                },
+                "additionalProperties": true
+            }
+        ]
+    }
+}
