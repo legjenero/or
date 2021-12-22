@@ -3,8 +3,8 @@ const {Pool} = require('pg');
 const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
-    database: 'Parkovi',
-    password: 'lealea',
+    database: 'drzave',
+    password: 'bazepodataka',
     port: 5432,
 });
 
@@ -14,6 +14,7 @@ module.exports = {
         return pool.query(text, params)
             .then(res => {
                 const duration = Date.now() - start;
+                //console.log('executed query', {text, params, duration, rows: res.rows});
                 return res;
             });
     },

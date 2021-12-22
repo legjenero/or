@@ -1,0 +1,54 @@
+[
+  {
+    "naziv": "Palau",
+    "iso_3116_alpha_3": "PLW",
+    "glavni_grad": "Ngerulmud",
+    "jezici": [
+      {
+        "iso_639": "eng",
+        "naziv": "engleski"
+      },
+      {
+        "iso_639": "pau",
+        "naziv": "palauski"
+      },
+      {
+        "iso_639": "jpn",
+        "naziv": "japanski"
+      },
+      {
+        "iso_639": "tox",
+        "naziv": "tobijski"
+      },
+      {
+        "iso_639": "sov",
+        "naziv": "sonsorolezijski"
+      }
+    ],
+    "valuta": "USD",
+    "pozivni_broj": "+680",
+    "top_level_domena": ".pw",
+    "naziv_himne": "Belau rekid",
+    "povrsina": 459,
+    "strana_voznje": "desna",
+    "wikipedia_handle": "Palau"
+  },
+  {
+    "naziv": "Gabon",
+    "iso_3116_alpha_3": "GAB",
+    "glavni_grad": "Libreville",
+    "jezici": [
+      {
+        "iso_639": "fra",
+        "naziv": "francuski"
+      }
+    ],
+    "valuta": "XAF",
+    "pozivni_broj": "+241",
+    "top_level_domena": ".ga",
+    "naziv_himne": "La Concorde",
+    "povrsina": 267667,
+    "strana_voznje": "desna",
+    "wikipedia_handle": "Gabon"
+  }
+]
