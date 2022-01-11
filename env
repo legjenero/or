@@ -1,0 +1,4 @@
+SECRET: 'a long, randomly-generated string stored in env',
+BASEURL: 'http://localhost:8080',
+CLIENTID: 'bViQNBqZhUPFwAdu17EVIklSZSjS6B78',
+ISSUER: 'https://dev-aencamki.us.auth0.com'
